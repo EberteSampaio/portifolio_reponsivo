@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria:  #000000;
+    --cor-secundaria:#F6F6F6;
+    --cor-terciaria: #22D4FD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    margin: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cabecalho__links{
+    width: 570px;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__links__link{
+    color: var(--cor-terciaria);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin: 0;
+    text-align: left;
+ 
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-content: space-between;
+}
+
+.apresentacao__conteudo__titulo{
+    color: var(--cor-secundaria);
+    width: 485px;
+    font-family: 'Krona One',sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; 
+    
+}
+
+.apresentacao__conteudo__texto{
+    color: var(--cor-secundaria);
+    flex-shrink: 0;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+}
+.azul{
+    color: var(--cor--terciaria);
+}
+
+.rodape{
+    width: 1920px;
+    height: 80px;
+    flex-shrink: 0;
+    color:var(--cor-primaria) ;
+    background-color: var(--cor-terciaria);
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__titulo{
+    width: 482px;
+    height: 32.727px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+}

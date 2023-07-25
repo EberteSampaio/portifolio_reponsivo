@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria:  #000000;
+    --cor-secundaria:#F6F6F6;
+    --cor-terciaria: #22D4FD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var( --cor-primaria);
+    color: var( --cor-secundaria);
+}
+
+.cabecalho {
+    margin: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cabecalho__links{
+    width: 60%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__links__link{
+    color:  var( --cor-terciaria);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin: 0;
+    text-align: left;
+ 
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:82px;
+}
+
+.apresentacao__conteudo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 15px;
+}
+
+.apresentacao__conteudo__titulo{
+    color: var( --cor-secundaria);
+    width: 65%;
+    font-family: 'Krona One',sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; 
+}
+
+.apresentacao__conteudo__texto{
+    color: var( --cor-secundaria);
+
+    flex-shrink: 0;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 150% */
+}
+
+.rodape{
+    width: 100%;
+    height: 12%;
+    flex-shrink: 0;
+    color:var( --cor-primaria) ;
+    background-color: var( --cor-terciaria);
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__titulo{
+    width: 30%;
+    flex-shrink: 0;
+    margin-top: 20px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
