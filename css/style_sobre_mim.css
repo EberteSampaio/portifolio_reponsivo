@@ -107,23 +107,26 @@ body{
     .cabecalho{
         width: auto;
         margin: 5% 10%;
-        justify-content: center;
-    }
-
-    .cabecalho__links{
-        gap: 20%;
-        width:auto;
-        display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .apresentacao{
         flex-direction: column-reverse;
         padding: 1%;
+        justify-content:center;
     }
 
     .apresentacao__conteudo{
+        margin: 5% 10%;
         width: auto;
         text-align: center;
+    }
+
+    .apresentacao__conteudo__titulo{
+        width: auto;
+        text-align: center;
+    }
+    .rodape{
+        width: auto;
     }
 }
