@@ -103,3 +103,27 @@ body{
     font-weight: 400;
     line-height: 150%;
 }
+@media (max-width:1200px){
+    .cabecalho{
+        width: auto;
+        margin: 5% 10%;
+        justify-content: center;
+    }
+
+    .cabecalho__links{
+        gap: 20%;
+        width:auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 1%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+        text-align: center;
+    }
+}
